@@ -23,7 +23,7 @@ This will create a storybook-static directory containing the built Storybook app
 my-storybook/  
 ├── public/             
 ├── src/
-├──└──components/     
+├──└── components/     
 ├──├──├── MyButton/     
 ├──├──├──│── MyButton.tsx  
 ├──├──├──└── MyButton.css  
