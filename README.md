@@ -21,16 +21,16 @@ This will create a storybook-static directory containing the built Storybook app
 
 ### Project Structure
 my-storybook/  
-├── public/             // Static assets (optional)  
+├── public/             
 ├── src/
-│   ├── components/     // Your UI components  
-│   │   ├── MyButton/     // Example component directory  
+│   ├── components/     
+│   │   ├── MyButton/     
 │   │   │   ├── MyButton.tsx  
 │   │   │   └── MyButton.css  
 │   │   └── MyLabel
 │   │   │   ├── MyLabel.tsx
 │   │   │   ├── MyLabel.css
-│   ├── stories/        // Static assets (optional)  
+│   ├── stories/                 // Static assets 
 │   │   ├── MyLabel.stories.ts
 │   │   ├── MyButton.stories.ts
 │   ├── App.css
