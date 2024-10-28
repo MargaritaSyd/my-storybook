@@ -30,7 +30,7 @@ my-storybook/
 ├──├──├── MyLabel/     
 ├──├──├──│── MyLabel.tsx  
 ├──├──├──└── MyLabel.css
-├──├── stories/                 // Static assets 
+├──├──├── stories/                 // Static assets 
 ├──├──├──└── MyLabel.stories.ts
 ├──├──├──└──MyButton.stories.ts
 ├──├──├── App.css
