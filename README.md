@@ -28,7 +28,7 @@ my-storybook/
 ├──├──├──│── MyButton.tsx  
 ├──├──├──└── MyButton.css  
 ├──├──├── MyLabel
-├──├──├──│──├──MyLabel.tsx
+├──├──├──└──MyLabel.tsx
 ├──├──├──└── MyLabel.css
 ├──├── stories/                 // Static assets 
 ├──├──├──└── MyLabel.stories.ts
