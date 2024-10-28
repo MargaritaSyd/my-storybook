@@ -22,33 +22,33 @@ This will create a storybook-static directory containing the built Storybook app
 ### Project Structure
 my-storybook/  
 ├── public/             
-├── src/
-├──└── components/
+├── src/      
+├──└── components/         
 ├──├──├── MyButton/     
-├──├──├──│── MyButton.tsx  
-├──├──├──└── MyButton.css  
+├──├──├──│── MyButton.tsx        
+├──├──├──└── MyButton.css        
 ├──├──├── MyLabel/     
-├──├──├──│── MyLabel.tsx  
-├──├──├──└── MyLabel.css
+├──├──├──│── MyLabel.tsx           
+├──├──├──└── MyLabel.css         
 ├──├──├── stories/                 // Static assets 
-├──├──├──└── MyLabel.stories.ts
-├──├──├──└──MyButton.stories.ts
-├──├──├── App.css
-├──├──├── App.tsx
-├──├──├── index.css
-├──├──├── index.ts
-├──├──├── LICENSE
-├──├──├── main.tsx
-├──├──├── vite-env.d.ts
-├── .gitignore
-├── build-storybook.log
-├── eslint.config.s
-├── index.html
-├── package.json
-|── README.md
-├── tsconfig.app.json
-│── tsconfig.node.json
-├── tsconfig.json
+├──├──├──└── MyLabel.stories.ts         
+├──├──├──└──MyButton.stories.ts         
+├──├──├── App.css         
+├──├──├── App.tsx            
+├──├──├── index.css            
+├──├──├── index.ts            
+├──├──├── LICENSE         
+├──├──├── main.tsx         
+├──├──├── vite-env.d.ts            
+├── .gitignore            
+├── build-storybook.log            
+├── eslint.config.ts            
+├── index.html         
+├── package.json            
+|── README.md            
+├── tsconfig.app.json            
+│── tsconfig.node.json            
+├── tsconfig.json            
 ├── vite.config.ts
 
 src/components: This directory contains your reusable UI components. Each component should have a corresponding .stories.jsx file (or .stories.tsx for TypeScript) to define its stories in Storybook.
