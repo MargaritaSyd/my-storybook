@@ -23,23 +23,23 @@ This will create a storybook-static directory containing the built Storybook app
 my-storybook/  
 ├── public/             
 ├── src/
-│   ├── components/     
-│   │   ├── MyButton/     
-│   │   │   ├── MyButton.tsx  
-│   │   │   └── MyButton.css  
-│   │   └── MyLabel
-│   │   │   ├── MyLabel.tsx
-│   │   │   ├── MyLabel.css
-│   ├── stories/                 // Static assets 
-│   │   ├── MyLabel.stories.ts
-│   │   ├── MyButton.stories.ts
-│   ├── App.css
-│   ├── App.tsx
-│   ├── index.css
-│   ├── index.ts
-│   ├── LICENSE
-│   ├── main.tsx
-│   ├── vite-env.d.ts
+├──├── components/     
+├──├──├── MyButton/     
+├──├──├──│── MyButton.tsx  
+├──├──├──└── MyButton.css  
+├──├──├── MyLabel
+├──├──├──│──├──MyLabel.tsx
+├──├──├──└── MyLabel.css
+├──├── stories/                 // Static assets 
+├──├──├──└── MyLabel.stories.ts
+├──├──├──└──MyButton.stories.ts
+├──├──├── App.css
+├──├──├── App.tsx
+├──├──├── index.css
+├──├──├── index.ts
+├──├──├── LICENSE
+├──├──├── main.tsx
+├──├──├── vite-env.d.ts
 ├── .gitignore
 ├── build-storybook.log
 ├── eslint.config.s
